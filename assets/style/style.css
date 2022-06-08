@@ -1,0 +1,11 @@
+* {
+
+}
+
+#header {
+    height: 50px;
+    transition: all 0.75s;
+    z-index: 1000;
+    background-color: #354259;
+}
+
