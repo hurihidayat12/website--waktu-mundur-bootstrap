@@ -1,3 +1,38 @@
+*{
+  
+}
+
+
+
+.bg-clew {
+  background-color: #C2DED1 !important;
+}
+
+.bg-bg1 {
+  background-color: #ECE5C7 !important;
+}
+
+.border-bg1 {
+  border: 2px solid #ECE5C7 !important;
+}
+
+.border-bgclew {
+  border: 2px solid  #C2DED1 !important;
+}
+
+
+.border-bg3 {
+  border: 2px solid  #CDC2AE !important;
+}
+
+.bg-bg2 {
+  background-color: #354259 !important;
+}
+
+.bg-bg3 {
+  background-color: #CDC2AE !important;
+}
+
 
 /*--------------------------------------------------------------
 # General
@@ -5,6 +40,10 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444;
+}
+
+@media (min-width: 992px) {
+  .rounded-lg-3 { border-radius: .3rem; }
 }
 
 a {
@@ -70,8 +109,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/1790.jpg") ;
-  /* background: url("../img/andres-molina-4HMSNHOXa6Y-unsplash.jpg"); */
+  /* background: url("../img/1790.jpg") ; */
+  background: url("../img/andres-molina-4HMSNHOXa6Y-unsplash.jpg");
   background-size: cover;
   position: relative;
   margin-top: -80px;
@@ -375,3 +414,19 @@ section {
 #footer .credits a {
   color: #72a8bf;
 }
+
+.princing {
+  margin-left: 45px;
+  margin-right: 45px; 
+}
+
+
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+
+
