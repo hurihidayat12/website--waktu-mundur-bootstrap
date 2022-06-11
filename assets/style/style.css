@@ -204,7 +204,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
     transform: rotate(360deg);
   }
 }
-#hero .php-email-form input {
+#hero .email-form input {
   border-radius: 3px;
   box-shadow: none;
   font-size: 14px;
@@ -214,25 +214,30 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   height: 40px;
   margin: 0 8px;
 }
-#hero .php-email-form button[type=submit] {
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 7px 30px;
-  border-radius: 3px;
-  transition: 0.5s;
-  margin: 10px;
-  border: 2px solid #4f92af;
-  color: #fff;
-  background: #4f92af;
+
+.email-form button {
+  color: white;
+  background-color: #73777B;
+  border: none;
+  border-radius: 4px;
+  padding: 7px;
+  height : 40px;
+  margin-top: 10px;
+  cursor: pointer;
 }
-#hero .php-email-form button[type=submit]:hover {
-  background: transparent;
-  color: #fff;
-  border: 2px solid #fff;
+
+.email-form button:hover {
+  color: white;
+  background-color: #73777B;
+  border: 2px solid white;
+  border-radius: 4px;
+  padding: 7px;
+  height : 40px;
+  margin-top: 10px;
+  cursor: pointer;
 }
+
+
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
